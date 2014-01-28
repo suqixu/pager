@@ -1,0 +1,19 @@
+﻿ body, div,input,a{ font-size: 12px; }
+
+a {color: #004d00;text-decoration: none;}
+a:visited {color:#004d00} /* 已访问的链接 */
+a:hover {text-decoration: none;color: #c00;} /* 当有鼠标悬停在链接上 */
+a:active {color: #f00} /* 被选择的链接 */
+
+.mod_page{}
+.mod_page_lk,.mod_page_on,.mod_page_etc,.mod_page_disable,.mod_page_turn,.mod_page_num,.mod_page_go{overflow:hidden;display:inline-block;margin-left:5px;vertical-align:top;}
+.mod_page_lk,.mod_page_on,.mod_page_etc,.mod_page_disable,.mod_page_turn,.mod_page_num{height:24px;line-height:24px;line-height:28px\9;_line-height:24px}
+.mod_page_lk,.mod_page_on,.mod_page_etc,.mod_page_disable{padding:0 12px;}
+.mod_page a:hover{border-color:#ddead0;text-decoration:none;}
+.mod_page_lk{border:1px solid #ddead0;background-color:#FFF;}
+.mod_page_on{cursor:default;border:1px solid #ddead0;background-color:#ddead0;color:#004d00;}
+.mod_page_etc{border:1px solid #FFF;color:#777;}
+.mod_page_disable{border:1px solid #ddead0;color:#777;}
+.mod_page_turn{position:relative;top:1px;top:2px\9;_top:1px;width:35px;height:22px;border:1px solid #7f9db9;line-height:20px;line-height:24px\9;_line-height:20px;text-align:center;vertical-align:middle;}
+.mod_page_num{border:1px solid #FFF;color:#777;}
+.mod_page_go{position:relative;top:1px;top:2px\9;_top:1px;padding:0 10px;height:22px;border:1px solid #ddead0;background-color:#ddead0;line-height:20px;line-height:24px\9;_line-height:20px;vertical-align:middle;}
