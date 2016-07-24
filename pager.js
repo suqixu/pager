@@ -5,7 +5,7 @@ var eventBind = function eventBind(C, A, B) { if (C.addEventListener) { C.addEve
 //分页 by zzy 2013-11-30
 var pagerUtil = {
     enable: true,
-    //设置query参数
+    //设置query参数 
     setQuery: function(query, key, value) {
         query = query || '';
         var reg = new RegExp(key + '=\\d+', 'i');
