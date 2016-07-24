@@ -1,5 +1,5 @@
 ﻿比较简单的js分页控件 
-by zzy suqixu@126.com
+by zzy suqixu@126.com 
 
 1、引用pager.js
 2、在需要显示控件的地方加入

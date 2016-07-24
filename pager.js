@@ -2,7 +2,7 @@
 String.prototype.Format = function() { var t = this; for (var i = 0, j = arguments.length; i < j; i += 1) t = t.replace(new RegExp("\\{" + i + "\\}", "g"), arguments[i]); return t; };
 var eventBind = function eventBind(C, A, B) { if (C.addEventListener) { C.addEventListener(A, B, false) } else { if (C.attachEvent) { C.attachEvent("on" + A, B) } } };
 
-//分页 by zzy 2013-11-30
+//分页 by zzy 2013-11-30 
 var pagerUtil = {
     enable: true,
     //设置query参数 
