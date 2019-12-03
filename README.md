@@ -16,7 +16,7 @@ next	——当前页后面标签个数
 total	——总页数
 ```
 
-eg：
+*eg*：
 ``` html
 <script type="text/javascript">pagerUtil.init(4,3,100);</script>
 ```
